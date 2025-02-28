@@ -1,0 +1,28 @@
+Setup React
+===========
+------bash
+
+npx create-react-app frontend
+cd frontend
+npm install axios react-router-dom tailwindcss
+npx tailwindcss init
+
+-----------------> Update tailwind.config.js:
+
+----------js
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: { extend: {} },
+  plugins: [],
+}
+
+------------------>Import Tailwind into index.css:
+
+----------CSS
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
