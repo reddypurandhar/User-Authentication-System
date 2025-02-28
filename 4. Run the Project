@@ -1,0 +1,13 @@
+4. Run the Project
+===================
+
+Start Backend
+-------------------bash
+
+uvicorn main:app --reload
+
+Start Frontend
+-------------------bash
+
+npm start
+
