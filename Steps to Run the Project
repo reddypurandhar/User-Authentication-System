@@ -1,0 +1,36 @@
+Steps to Run the Project
+----------------------- 
+
+* Install dependencies (Python & Node.js required).
+* Run MongoDB (mongod or use MongoDB Atlas).
+* Start the FastAPI Backend (uvicorn main:app --reload).
+* Start the React Frontend (npm start).
+
+========================================================
+
+Backend (FastAPI)
+----------------
+-> Folder Structure
+
+backend/
+│── main.py
+│── auth.py
+│── models.py
+│── database.py
+│── requirements.txt
+
+========================================================
+
+Frontend (React + Tailwind CSS)
+------------------------------
+-> Folder Structure
+
+frontend/
+│── src/
+│   ├── components/
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   ├── App.js
+│── package.json
+│── tailwind.config.js
+│── index.css
